@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iREAD - Ingresar</title>
+    <link rel="icon" href="../img/icono.png">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/estilos.css" as="style">
+    <link href="../css/estilos.css" rel="stylesheet">
+</head>
+<body>
+  <div class="fondo">
+    <header class="encabezado_contenedor"> 
+        <div class="logo">
+             <img src="../img/icono.png" alt="Logo iREAD">
+        </div>
+
+        <div class="enlace">
+            <nav class="navegacion">
+              <a href="index.html">Inicio</a>
+              <a href="#">Colección</a>
+              <a href="#">Mangas</a>
+            </nav>
+        </div>
+
+        <div class="buscador">
+          <input type="search" placeholder="Buscar" required>
+        </div>
+
+        <div class="enlace">
+          <nav class="inicio-registro">
+            <a href="ingresar.html">Ingresar</a>
+            <a href="#">Registrarse</a>
+          </nav>
+
+        </div>
+    </header>
+  </div>
+
+  <div class="contenedor">
+     <div class="pagina">
+
+      <form class="formulario">
+        <fieldset>
+            <h2>Inicio de Sesión</h2>
+            <div class="contenedor-campos">
+              <!-- Usuario -->
+                <div class="campo">
+            
+            <input class="input-text" type="txt" id="txtUsuario" placeholder="  Usuario">
+                </div>
+                
+                  <!-- Contraseña -->
+                <div class="campo">
+                  <input type="password" class="input-text" placeholder="  Password">
+          </div>
+          <!-- Registrarse -->
+          <div class="a">
+          <a href="#">¿No tienes cuenta? Regístrate</a>
+        </div>
+             
+            </div>
+            <div class="boton-enviar">
+
+            <input class="boton" type="submit" value="Ingresar"> <!-- esto es un boton de envio -->
+            </div>
+
+        </main>
+        </fieldset>
+    </form>
+
+         
+     </div>
+
+  </div>
+   
+</body>
+</html>
